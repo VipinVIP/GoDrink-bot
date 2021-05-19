@@ -1,0 +1,33 @@
+{
+  "name": "GoDrink-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamAravindks/GoDrink-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamAravindks/GoDrink-bot/issues"
+  },
+  "homepage": "https://github.com/iamAravindks/GoDrink-bot#readme",
+  "dependencies": {
+    "cookie-session": "^1.4.0",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "passport": "^0.4.1",
+    "passport-slack": "0.0.7",
+    "passport-slack-oauth2": "^1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
